@@ -29,37 +29,37 @@
                 <div class="flex flex-col">
                     <div class="flex gap-8">
                         <label for="" class="text-xl font-semibold text-gray-900 py-2 px-2">Rent</label>
-                        <input type="text" name="" id=""
+                        <input type="text" name="" id="rent"
                             class="bg-slate-200 text-gray-500 font-medium text-base py-2 px-7"
                             placeholder="Enter your House rent">
                     </div>
                     <div class="flex gap-8">
                         <label for="" class="text-xl font-semibold text-gray-900 py-2 px-2">Maid</label>
-                        <input type="text" name="" id=""
+                        <input type="text" name="" id="maid"
                             class="bg-slate-200 text-gray-500 font-medium text-base py-2 px-7"
                             placeholder="Enter your maid cost">
                     </div>
                     <div class="flex gap-8">
                         <label for="" class="text-xl font-semibold text-gray-900 py-2 px-2">Electric Bill</label>
-                        <input type="text" name="" id=""
+                        <input type="text" name="" id="electric"
                             class="bg-slate-200 text-gray-500 font-medium text-base py-2 px-7"
                             placeholder="Enter your electric cost">
                     </div>
                     <div class="flex gap-8">
                         <label for="" class="text-xl font-semibold text-gray-900 py-2 px-2">Gas Bill</label>
-                        <input type="text" name="" id=""
+                        <input type="text" name="" id="gas"
                             class="bg-slate-200 text-gray-500 font-medium text-base py-2 px-7"
                             placeholder="Enter your gas cost">
                     </div>
                     <div class="flex gap-8">
                         <label for="" class="text-xl font-semibold text-gray-900 py-2 px-2">Water Bill</label>
-                        <input type="text" name="" id=""
+                        <input type="text" name="" id="water"
                             class="bg-slate-200 text-gray-500 font-medium text-base py-2 px-7"
                             placeholder="Enter your water cost">
                     </div>
                     <div class="flex gap-8">
                         <label for="" class="text-xl font-semibold text-gray-900 py-2 px-2">WIFI Bill</label>
-                        <input type="text" name="" id=""
+                        <input type="text" name="" id="wifi"
                             class="bg-slate-200 text-gray-500 font-medium text-base py-2 px-7"
                             placeholder="Enter your wifi cost">
                     </div>
@@ -68,11 +68,13 @@
             <div class="text-center  col-span-2">
                 <button class=" bg-green-400 py-2 px-4 text-xl font-semibold rounded-2xl" id="total-calculation">Calculate</button>
             </div>
-            <div>
+            <div  class="flex flex-row">
                 <p class="text-xl font-semibold text-gray-900 py-2 px-2">Total expense : </p>
+                <p id="expense-show" class="text-xl font-semibold text-gray-900 py-2 px-2"></p>
             </div>
-            <div>
+            <div class="flex flex-row">
                 <p class="text-xl font-semibold text-gray-900 py-2 px-2">balance :</p>
+                <p id="balance-show" class="text-xl font-semibold text-gray-900 py-2 px-2"></p>
             </div>
             <div>
                 <label for="" class="text-xl font-semibold text-gray-900 py-2 px-2">Saving : </label>
